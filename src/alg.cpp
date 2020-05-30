@@ -14,10 +14,9 @@ while(first <= last){
 		}
 		return search;
 	}
-	if(arr[middle] < value){
+	if(arr[middle] < value)
 	first = middle + 1;
 	else last = middle - 1;
-	}
 }
 return search;
 } 
